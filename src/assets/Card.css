@@ -1,0 +1,21 @@
+
+.laCompra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.numCompra {
+ width: 25px;
+ height: 25px;
+ border: 2px solid black;
+ border-radius:50% ;
+ display: grid;
+ place-content: center;
+}
+
+ion-icon {
+    font-size: 2rem;
+}

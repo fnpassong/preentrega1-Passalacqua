@@ -1,0 +1,14 @@
+
+.container {
+    width: min(90%, 1200px);
+    margin-inline: auto;
+} 
+
+
+.card {
+    margin: 20px;
+    border: 3px solid var(--bg-header);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 12px;
+}

@@ -1,0 +1,36 @@
+@import url("https://use.typekit.net/jod4zvf.css");
+
+:root {
+  --bg-header : hsl(0, 0%, 30%);
+  --font-color:hsl(0, 0%, 0%);
+
+  --ff: trilby, serif;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff);
+  font-weight: 900;
+}
+
+.container {
+  width: min(90%, 1200px);
+  margin-inline: auto;
+ display: flex; 
+ justify-content: space-between;
+}
+
+h2 {
+  margin-top: 25px;
+  text-align: center;
+}
